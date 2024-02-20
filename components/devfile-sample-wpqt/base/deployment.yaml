@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wpqt
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0042-tenant/tkrw-pr712-0075-0042-app/devfile-sample-wpqt@sha256:cb5666e6bf7124e3510ac73a436088f5b8080444f572da3fed0760eb0fbd43dd
         name: my-nodejs
         ports:
         - containerPort: 3001
